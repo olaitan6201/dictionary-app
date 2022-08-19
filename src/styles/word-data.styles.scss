@@ -1,0 +1,32 @@
+.word-data{
+    .audios{
+        border-bottom: 1px solid #ddd;
+
+        .audio{
+            padding: 8px 20px;
+        }
+    }
+
+    .meaning{
+        padding: 0px 20px;
+        border-bottom: 1px solid #ddd;
+
+        .part-of-speech{
+            font-size: 17px;
+            font-weight: 600;
+            margin: 10px 0px 0px;
+        }
+
+        .definition{
+            padding: 8px 0px;
+
+            p{
+                margin: 5px 0px;
+            }
+        }
+    }
+
+    & > div:last-child{
+        border-bottom: none;
+    }
+}
